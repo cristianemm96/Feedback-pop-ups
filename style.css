@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#feedback-container{
+    width: 460px;
+    height: 491px;
+    margin-left: 35%;
+    margin-top: 7%;
+    background-color: white;
+    overflow: auto;
+    border-radius: 15px 15px;
+    box-shadow: -13px 25px 42px -20px rgb(163, 161, 161);
+   
+}
+
+#puntuation{
+    margin-top: 25px;
+    margin-left:55px;
+    
+}
+
+#rep{
+    height: 55px;
+    width: 16%;
+    border-radius: 5px 5px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: solid 1px rgb(233, 230, 230);
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#rep:hover{
+    background-color: #FF0099;
+    box-shadow: 0px 9px 15px -10px #111;
+    border: none;
+    color: white;
+}
+
+h1{
+    font-size: 17px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+    margin-left: 60px;
+    margin-right: 86px;
+    font-weight: 800;
+}
+
+#bad-rep{
+    font-size: 14px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+#good-rep{
+    font-size: 14px;
+    margin-left: 85px;
+    margin-right: 85px;
+    text-align: end;
+}
+
+#insatisfaccion{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+#terms-use{
+    margin-top: 30px;
+    display: flex;
+    overflow: auto;
+}
+
+#terms{
+    margin-left: 30px;
+    margin-bottom: 25px;
+    width: 80px;
+    height: 30px;
+}
+
+#terms-label{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 7px;
+    margin-left:-12px;
+}
+
+hr{
+    margin-left: 56px;
+    margin-right: 68px;
+    margin-bottom: -15px;
+    border: solid 1px rgb(233, 230, 230);
+}
+
+#next{
+    width: 73%;
+    height: 68px;
+    margin-top: 35px;
+    margin-left: 57px;
+    background-color: white;
+    border:solid 1px rgb(233, 230, 230);
+    border-radius: 5px 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#next:hover{
+    background-color: rgb(114, 177, 102);
+    box-shadow: 0px 9px 15px -10px #111;
+    border: none;
+    color: white;
+}
+
+
+
+#close{
+    margin-top: 7px;
+    display: block;
+    color: gray;
+    font-weight: 600;
+}
+
+
+
+#close-site{
+    margin-left: 84%;
+    margin-right: 30px;
+    margin-bottom: -50px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: solid 0.01em rgb(196, 196, 196);
+    overflow: auto;
+}
+
+#close-site:hover a{
+    color:white;
+}
+
+#close-site:hover{
+    background-color: red;
+    border-color: white;
+}
